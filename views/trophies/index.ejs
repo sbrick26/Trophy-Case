@@ -29,6 +29,14 @@
                     <div class="card-text mb-2 text-muted">
                         <%= trophy.tags %>
                     </div>
+
+                    <a class="btn btn-primary" href="trophies/<%=trophy.slug%>">Read More</a>
+
+                    <a class="btn btn-info" href="trophies/edit/<%=trophy.id%>">Edit</a>
+
+                    <form action="/trophies/<%=trophy.id%>?_method=DELETE" method="POST" class="d-inline">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
                     
                 </div>
                 
