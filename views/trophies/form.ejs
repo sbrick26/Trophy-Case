@@ -1,0 +1,27 @@
+<div class="form-group">
+    <label for="title">Title</label>
+    <input required value="<%= trophy.title %>" type="text" name="title" id="title" class="form-control">
+</div>
+
+<div class="form-group">
+    <label for="length">Length</label>
+    <input type="text" value="<%= trophy.length %>" name="length" id="length" class="form-control">
+</div>
+
+<div class="form-group">
+    <label for="description">Description</label>
+    <textarea name="description" id="description" class="form-control"><%= trophy.description %></textarea>
+</div>
+
+<div class="form-group">
+    <label for="link">Link</label>
+    <input value="<%=trophy.link%>"type="url" id="link" name="link" class="form-control">    
+</div>
+
+<div class="form-group">
+    <label for="tags">Tags</label>
+    <input value="<%= trophy.tags %>" type="text" name="tags" id="tags" class="form-control">
+</div>
+
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button>
