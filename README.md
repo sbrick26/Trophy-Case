@@ -11,6 +11,7 @@ Trophy Case is a web application hat allows a user to easily track and sort thei
 1. Go to project directory through terminal/command prompt
 1. Run command `node server.js` on terminal/command prompt
 1. Open web browser and go to https://localhost:5000 (type in browser after running server.js)
+1. When finished viewing site, if you want to close the server, run command `killall node`
 
 ## Web App Overview:
 
