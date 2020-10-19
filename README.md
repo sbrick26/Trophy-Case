@@ -1,16 +1,16 @@
-# Welcome to Trophy Case
+# Welcome to Trophy Case!
 
 Trophy Case is a web application hat allows a user to easily track and sort their projects, awards, and other resume elements for easy copy and pasting into their resume when applying for jobs/internships/etc. As a growing developer, the amount of projects one has increases over time and becomes hard to keep track. Using this website, you should be able to upload crucial information about projects/awards in an easy to read format that can be sorted and exported to your own resume, saving users time on retyping and refactoring resume elements. 
 
 ## Download/Use Instructions
 
 1. Check terminal/command prompt for nodejs:
-    use `node — version`
+    use command `node — version`
     1. If not installed, visit https://nodejs.org/en/download/
 1. Download project files and open zip file 
 1. Go to project directory through terminal/command prompt
-1. Run `node server.js` on terminal/command prompt
-1. Open web browser and go to https://localhost:5000
+1. Run command `node server.js` on terminal/command prompt
+1. Open web browser and go to https://localhost:5000 (type in browser after running server.js)
 
 ## Web App Overview:
 
