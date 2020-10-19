@@ -5,9 +5,12 @@ Trophy is a web application hat allows a user to easily track and sort their pro
 ## Download/Use Instructions
 
 1. Check terminal/command prompt for nodejs:
-    `use node — version`
+    use `node — version`
     1. If not installed, visit https://nodejs.org/en/download/
-     [GitHub](http://github.com)
+1. Download project files and open zip file 
+1. Go to project directory through terminal/command prompt
+1. Run `node server.js` on terminal/command prompt
+1. Open web browser and go to https://localhost:5000
 
 ## Web App Overview:
 
